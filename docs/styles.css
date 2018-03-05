@@ -1,0 +1,29 @@
+
+.file-form-wrapper {
+  width: 100%;
+}
+
+.file-form {
+
+}
+.fileInput {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.fileInputLabel {
+    width: 300px;
+    height: 60px;
+    background: lightblue;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
